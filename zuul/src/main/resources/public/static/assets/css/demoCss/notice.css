@@ -1,0 +1,18 @@
+.layui-layer-setwin .layui-layer-max {
+    background-position: -32px -40px;
+    display: none;
+}
+.content .header-input {
+    margin-left: 15px;
+    min-height: 36px;
+    display: flex;
+    margin-top: 15px;
+}
+.content .header-input .right {
+    margin-left: 415px;
+    border-left: 1px solid #ddd;
+    padding-left: 10px;
+}
+.layui-form-checked span, .layui-form-checked:hover span {
+    background-color: #393D49 !important;
+}

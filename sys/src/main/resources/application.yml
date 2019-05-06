@@ -1,0 +1,24 @@
+server:
+  port: 6666
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/cloud_user?useUnicode=true&characterEncoding=utf-8&allowMultiQueries=true&useSSL=false
+    username: root
+    password: 123456
+    type: com.alibaba.druid.pool.DruidDataSource
+  application:
+    name: sys
+security:
+  oauth2:
+    resource:
+      user-info-uri: http://localhost:8889/user-me
+      prefer-token-info: false
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8010/eureka/
+  instance:
+    instance-id: ${spring.application.name}:${random.value}
+    prefer-ip-address: true
+mybatis:
+  mapper-locations: classpath:mybatis/mapper/*.xml

@@ -1,0 +1,62 @@
+
+body {
+    background: url(/public/static/assets/img/gyslogin/hjf_01.png) no-repeat;
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    background-size: cover
+}
+
+.layadmin-user-login-main {
+
+    margin-top:100px;
+}
+.name {
+    position: absolute;
+    top: 115px;
+    left: -84px;
+}
+.layadmin-user-login-main .layui-input {
+    height: 45px;
+    border-radius: 5px;
+}
+#imgCode {
+    height: 45px;
+    width: 110px;
+}
+.icon {
+    position: absolute;
+    top: 15px;
+    left: 10px;
+    z-index: 99999;
+}
+.iconInput {
+    position: relative;
+}
+.layadmin-user-login-body {
+    /* border:1px solid #ddd; */
+    height: 243px;
+    margin-top: 200px;
+    text-align: center;
+}
+.layadmin-user-login-main {
+    width: 375px;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+.layadmin-user-login-box {
+    padding: 20px;
+}
+
+.layadmin-user-login-header {
+    text-align: center;
+}
+
+.layadmin-user-login-body .layui-form-item {
+    position: relative;
+}
+
+.layadmin-user-login-body .layui-form-item .layui-input {
+    padding-left: 38px;
+}

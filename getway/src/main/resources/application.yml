@@ -1,0 +1,54 @@
+zuul:
+  ignored-services: '*'
+  routes:
+    test:
+      path: /test/**
+      serviceId: test
+      sensitiveHeaders: "*"
+  add-proxy-headers: false
+  retryable: true
+  semaphore:
+    max-semaphores: 5000
+  ribbonIsolationStrategy: THREAD
+hystrix:
+  command:
+    default:
+      execution:
+        timeout:
+          enabled: true
+        isolation:
+          thread:
+            timeoutInMilliseconds: 9000
+ribbon:
+  ReadTimeout: 10000
+  ConnectTimeout: 10000
+  MaxAutoRetries: 2 #同一台实例最大重试次数,不包括首次调用
+  MaxAutoRetriesNextServer: 1 #重试负载均衡其他的实例最大重试次数,不包括首次调用
+  OkToRetryOnAllOperations: false  #是否所有操作都重试
+
+
+spring:
+  application:
+    name: zuul
+  session:
+    store-type: redis
+  redis:
+    host: 192.168.0.157
+    port: 6379
+
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/cloud_user?useUnicode=true&characterEncoding=utf-8&allowMultiQueries=true&useSSL=false
+    username: root
+    password: 123456
+
+server:
+  port: 9527
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8010/eureka/
+  instance:
+    instance-id: zull
+    prefer-ip-address: true
+

@@ -1,0 +1,33 @@
+.layui-layout-admin .layui-body .layadmin-tabsbody-item {
+    /* position: absolute;
+    top: 14px;
+    bottom: 0;
+    left: 13px;
+    right: 15px;
+    overflow: hidden;
+    background-color:#DDD;
+    padding:20px; */
+}
+.layui-layer-setwin .layui-layer-max {
+    background-position: -32px -40px;
+    display: none;
+}
+.layui-nav .layui-badge, .layui-nav .layui-badge-dot {
+    position: absolute;
+    top: 8px;
+    margin: -8px 6px 0;
+    left: 25px;
+}
+/* 底部通栏 */
+.layui-layout-admin .layui-main {
+    width: auto;
+    margin: 0 15px;
+    position: fixed;
+    bottom: 0px;
+}
+/* 卡片长度 */
+.layui-card-body {
+    padding: 10px 15px;
+    line-height: 24px;
+    height: 300px;
+}

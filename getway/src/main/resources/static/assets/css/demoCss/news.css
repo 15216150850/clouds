@@ -1,0 +1,183 @@
+.layui-layer-setwin .layui-layer-max {
+    background-position: -32px -40px;
+    display: none;
+}
+/* 侧边栏 */
+.layui-nav-side {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    overflow-x: hidden;
+    z-index: 999;
+    width: 120px;
+}
+
+.layui-form-checkbox span {
+    padding: 0 10px;
+    height: 100%;
+    font-size: 12px;
+    border-radius: 2px 0 0 2px;
+    background-color: #393D49 !important;
+    color: #fff;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.layui-nav-tree .layui-nav-item {
+    display: block;
+    width: 100%;
+    line-height: 45px;
+    font-size: 12px;
+    padding-left: 20px;
+}
+
+/* 头部 */
+.layui-header {
+    position: absolute;
+    z-index: 1000;
+    height: 46px;
+    background-color: #fff;
+    line-height: 38px;
+    padding-left: 20px;
+    top: 0px;
+    left: 121px;
+    width: 100%;
+    font-size: 12px;
+}
+
+.layui-header .layui-form-item {
+    margin-bottom: 7px;
+    clear: both;
+    *zoom: 1;
+}
+
+.layui-header .layui-input-block {
+    margin-left: 19px;
+    min-height: 36px;
+}
+
+.layui-form-checkbox span {
+    padding: 0 10px;
+    height: 100%;
+    font-size: 12px;
+    border-radius: 2px 0 0 2px;
+    background-color: #d2d2d2;
+    color: #fff;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+/* 表单内容 */
+.new-content {
+    font-size: 12px;
+    /* border: 1px solid red; */
+    margin-left: 133px;
+    margin-right: 16px;
+    margin-top: 66px;
+    padding: 20px;
+}
+
+.new-content .box2 .layui-btn {
+    display: inline-block;
+    height: 30px;
+    line-height: 30px;
+    /* padding: 0 18px; */
+    background-color: black;
+    color: #fff;
+    white-space: nowrap;
+    text-align: center;
+    font-size: 12px !important;
+    border: none;
+    border-radius: 2px;
+    cursor: pointer;
+    margin-top: 5px;
+}
+
+.new-content .layui-form-item .layui-icon-username {
+    position: absolute;
+    right: 10px;
+    top: 11px;
+}
+
+.new-content .layui-form-item .layui-icon-more {
+    position: absolute;
+    right: 10px;
+    top: 11px;
+}
+
+.new-content .layui-layedit {
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 2px;
+    background-color: #fff;
+}
+
+.new-content .box {
+    display: none;
+}
+
+.new-content .box:first-child {
+    display: block;
+}
+
+.current {
+    background-color: #fff;
+    color: black
+}
+
+/* 已接收信息 */
+.new-content .box2 .layui-btn {
+    display: inline-block;
+    height: 30px;
+    line-height: 30px;
+    /* padding: 0 18px; */
+    background-color: black;
+    color: #fff;
+    white-space: nowrap;
+    text-align: center;
+    font-size: 14px;
+    border: none;
+    border-radius: 2px;
+    cursor: pointer;
+    margin-top: 5px;
+}
+
+.new-content .box2 .form-header {
+    display: flex;
+}
+
+.new-content .box2 .layui-form .right {
+    display: flex;
+    margin-left: 300px;
+    margin-top: 3px;
+}
+
+.new-content .box2 .layui-form .right .layui-input,
+.layui-textarea {
+    display: block;
+    padding-left: 10px;
+    height: 32px;
+    margin-top: 4px;
+    margin-right: 10px;
+    width: 229px;
+}
+
+.new-content .box2 .layui-form .right .layui-icon-search {
+    position: absolute;
+    top: 11px;
+    right: 117px;
+}
+
+/* .new-content .box2 .layui-form {
+    display:block;
+} */
+.nav-item {
+    padding-left: 15px;
+    display: block;
+    width: 100%;
+    line-height: 45px;
+    font-size: 12px;
+}

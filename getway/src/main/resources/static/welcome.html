@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org"
+      xmlns:sec="http://www.thymeleaf.org/thymeleaf-extras-springsecurity4">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <meta content="text/html;charset=UTF-8"/>
+    <script th:src="@{/static/assets/libs/jquery/jquery-3.3.1.min.js}"  src="/"></script>
+    <!-- pace -->
+    <script th:src="@{/static/assets/libs/pace/pace.min.js}"></script>
+    <!-- layui -->
+    <script th:src="@{/static/layuiadmin/layui/layui.js}"></script>
+    <link rel="stylesheet" th:href="@{/static/layuiadmin/layui/css/layui.css}" media="all"/>
+    <link rel="stylesheet" th:href="@{/static/layuiadmin/style/admin.css}" media="all"/>
+    <!-- layer -->
+    <script th:src="@{/static/assets/libs/layer/layer.js}"></script>
+    <!-- 自定义 -->
+    <script th:src="@{/static/assets/js/common.js}"></script>
+    <link rel="stylesheet" th:href="@{/static/assets/css/layui_bp_css/common.css}"/>
+</head>
+<body>
+<div class="admin-main">
+    <blockquote class="layui-elem-quote">
+        <fieldset class="layui-elem-field">
+            <div class="layui-form">
+                <table class="layui-table">
+                    <colgroup>
+                        <col width="50">
+                        <col width="150">
+                        <col width="120">
+                        <col>
+                    </colgroup>
+                    <thead>
+                    <tr>
+                        <th></th>
+                        <th>微服务名</th>
+                        <th>模块</th>
+                        <th>介绍</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td>eurake</td>
+                        <td>注册中心</td>
+                        <td>Spring Cloud Eureka实现</td>
+                    </tr>
+                    <tr>
+                        <td>5</td>
+                        <td>zuul</td>
+                        <td>网关</td>
+                        <td>Spring Cloud Zuul实现，路由分发请求到各个微服务</td>
+                    </tr>
+                    <tr>
+                        <td>6</td>
+                        <td>sys-service</td>
+                        <td>管理后台</td>
+                        <td>系统基础功能</td>
+                    </tr>
+                    <tr>
+                        <td>7</td>
+                        <td>log-center</td>
+                        <td>日志中心</td>
+                        <td>各微服务aop拦截并发送日志，基于rabbitmq处理日志,存储到mysql或者elasticsearch</td>
+                    </tr>
+                    <tr>
+                        <td>8</td>
+                        <td>file-center</td>
+                        <td>文件中心</td>
+                        <td>使用FTP文件上传</td>
+                    </tr>
+                    <tr>
+                        <td>9</td>
+                        <td>dashboard</td>
+                        <td>监控中心</td>
+                        <td>spring cloud dashboard 实现</td>
+                    </tr>
+                    </tbody>
+                </table>
+            </div>
+
+        </fieldset>
+
+    </blockquote>
+    <blockquote class="layui-elem-quote">
+        <fieldset class="layui-elem-field">
+            <legend>说明：</legend>
+            <div class="layui-field-box">
+                <p>
+                    <span class="layui-badge-dot"></span>该项目是微服务系统，由Spring Cloud开发，用到Java8、Maven、Mysql、Redis、Rabbitmq
+                </p>
+                <p>
+                    <span class="layui-badge-dot"></span>后台使用 spring session，移动端使用前后端分离
+                </p>
+                <p>
+                    <span class="layui-badge-dot"></span>权限基于Spring Security注解实现的，因此粒度很细，达到方法级
+                </p>
+            </div>
+        </fieldset>
+    </blockquote>
+    <blockquote class="layui-elem-quote">
+        <fieldset class="layui-elem-field">
+            <legend>管理后台内置功能：</legend>
+            <div class="layui-field-box">
+                <p>
+                    <span class="layui-badge-dot"></span>菜单管理：菜单列表、添加菜单、修改菜单、删除菜单、菜单图标设置
+                </p>
+                <p>
+                    <span class="layui-badge-dot"></span>角色管理：角色查询、添加角色、修改角色、删除角色、分配菜单、分配权限
+                </p>
+                <p>
+                    <span class="layui-badge-dot"></span>权限管理：权限查询、添加权限、修改权限、删除权限
+                </p>
+                <p>
+                    <span class="layui-badge-dot"></span>用户管理：用户查询、添加用户、修改用户、给用户分配角色、重置密码
+                </p>
+                <p>
+                    <span class="layui-badge-dot"></span>文件管理：上传文件、文件列表、文件删除
+                </p>
+
+                <p>
+                    <span class="layui-badge-dot"></span>注册中心：查看微服务注册情况
+                </p>
+                <p>
+                    <span class="layui-badge-dot"></span>监控中心：监控微服务信息
+                </p>
+                <p>
+                    <span class="layui-badge-dot"></span>接口swagger文档
+                </p>
+                <p>
+                    <span class="layui-badge-dot"></span>日志查询
+                </p>
+                <p>
+                    <span class="layui-badge-dot"></span>个人信息修改
+                </p>
+                <p>
+                    <span class="layui-badge-dot"></span>修改密码
+                </p>
+                <p>
+                    <span class="layui-badge-dot"></span>头像修改
+                </p>
+            </div>
+        </fieldset>
+    </blockquote>
+</div>
+</body>
+</html>

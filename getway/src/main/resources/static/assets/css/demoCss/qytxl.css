@@ -1,0 +1,28 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.qytxl {
+    background-color: #ddd;
+}
+.box-aside {
+    position: absolute;
+    height: 100%;
+    border:1px solid #ddd;
+    padding-left: 15px;
+}
+.layui-tree {
+    line-height: 26px;
+    background-color: #fff;
+    height: 100%;
+}
+.box-content{
+    background-color: #fff;
+    height: 100%;
+    position: absolute;
+    left:283px;
+}
+.layui-col-space10 {
+    margin: -5px;
+}
+body .layui-tree-skin-shihuang .layui-tree-branch{color: #EDCA50;}

@@ -1,0 +1,5 @@
+org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
+com.bp.common.config.FeignHeadersInterceptor,\
+com.bp.common.utils.IdWorker,\
+com.bp.common.config.BeanConfig
+

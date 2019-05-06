@@ -1,0 +1,244 @@
+.bp_wapper {
+  overflow-x: hidden;
+  background-color: #f2f2f2;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top:0px;
+  left:0px;
+  min-height: 1000px;
+}
+
+/* 表单样式 */
+html {
+  background-color: #fff;
+  color: #666;
+}
+
+.layui-layer-setwin .layui-layer-max {
+  background-position: -32px -40px;
+  display: none;
+}
+
+.layui-form {
+  /*padding: 10px 10px;*/
+  background-color: #fff;
+}
+#bpForm{
+    padding: 10px 10px;
+}
+
+.layui-input-inline {
+  margin-left: 3px !important;
+}
+
+.layui-form-label {
+  width: 150px !important;
+  padding: 8px 15px;
+  height: 38px;
+  line-height: 20px;
+  border: 1px solid #d2d6de;
+  border-radius: 2px 0 0 2px;
+  text-align: center;
+  background-color: #f5f5f5 !important;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  box-sizing: border-box;
+}
+
+.layui-input-block {
+  margin-left: 154px !important;
+  left: -1px;
+}
+
+.layui-form-pane .layui-form-text .layui-form-label {
+  float: left;
+  width: 100%;
+  border-radius: 2px;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+.bp_icon-fbox {
+  position: relative;
+}
+
+.bp_icon {
+  position: absolute;
+  top: 0px;
+  right: 8px;
+}
+
+.bp_icon2 {
+  position: absolute;
+  top: 0px;
+  right: -91px;
+  border: 1px solid #ddd;
+  height: 30px;
+  font-size: 12px;
+  padding: 0px 10px;
+  cursor: pointer;
+}
+.bp_wapper {
+  /* 设定容器高度为100% */
+  height: 100vh;
+}
+/* 顶部操作栏分开独立的模块 */
+.nav-top {
+  display: flex;
+  width: 100%;
+  height: 40px;
+  background-color: #fff;
+  font-size: 15px;
+  line-height: 40px;
+  justify-content: space-between;
+  padding-right: 20px;
+  margin-top: 10px;
+}
+
+.nav-top .left div span {
+  margin-left: 20px;
+  cursor: pointer;
+
+}
+
+.nav-top .left div span:hover {
+  background-color: #fff;
+  border-bottom: 3px solid #009688;
+  padding-bottom: 10px;
+}
+
+.nav-top .left .layui-icon {
+  margin-right: 10px;
+}
+
+.nav-top .right {
+  position: relative;
+  margin-right: 10px;
+}
+
+.nav-top .right input {
+  padding-left: 20px;
+  height: 25px;
+  font-size: 13px;
+  border-radius: 6px;
+  width: 200px;
+  border: 1px solid #ddd;
+  margin-right: 10px;
+}
+
+.nav-top .right .layui-icon-search {
+  position: absolute;
+  top: 2px;
+  right: 142px;
+}
+
+.nav-top .right .see-detail {
+  border: none !important;
+}
+/* 表单顶部间距 */
+.layui-table, .layui-table-view {
+  margin: 0;
+}
+
+/*是否需要滚共条 */
+ /* .layui-table-body {
+  overflow-x: hidden;
+} */
+/*底部*/
+.footer {
+    z-index: 99999;
+    height: 15px !important;
+    line-height: 15px !important;
+}
+.layui-footer {
+    background-color: #f2f2f2 !important;
+}
+.layui-layout-admin .layui-footer {
+     box-shadow: none;
+}
+/* 卡片长度 */
+.layui-card-body {
+    padding: 10px 15px;
+    line-height: 24px;
+    height: 300px;
+}
+/* 筛选 */
+.bp_wapper .detail{
+  background-color: #fff;
+  width: 100%;
+  border:1px solid #ddd;
+  display: none;
+  box-shadow: 0 0 5px #fff;
+  /* margin-bottom: 10px;
+  margin-top: 10px; */
+  position: relative;
+}
+.bp_wapper .detail #bpForm {
+  padding: 10px 60px;
+}
+.bp_wapper .detail .layui-form-item {
+  margin-bottom: 0;
+}
+.bp_wapper .detail .layui-form-label {
+  width: 100px !important;
+  padding: 8px 15px;
+  height: 30px;
+  line-height: 15px;
+  text-align: right;
+  border:none;
+  background-color: #fff !important;
+}
+.bp_wapper .detail .layui-input-block {
+  margin-left:100px !important;
+  left: -1px;
+}
+.bp_wapper .detail input {
+  height: 30px;
+}
+.bp_wapper .detail .layui-btn {
+  display: inline-block;
+  height: 30px;
+  line-height: 30px;
+  padding: 0 18px;
+  background-color: #f2f2f2;
+  color:black;
+  white-space: nowrap;
+  text-align: center;
+  font-size: 13px;
+  border: none;
+  border-radius: 2px;
+  cursor: pointer;
+}
+
+.bp_wapper .layui-btn-primary {
+  border-color: #fff;
+}
+/* 公共样式 禁止列表溢出点击 */
+.layui-table-tips{display:none;}
+.layui-form-switch em {
+    position: relative;
+    top: 0;
+    width: 25px;
+    margin-left: 21px;
+    padding: 0!important;
+    text-align: center!important;
+    color: red!important;
+    font-style: normal!important;
+    font-size: 12px;
+}
+.layui-table-grid-down {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 26px;
+  height: 100%;
+  padding: 5px 0;
+  border-width: 0 0 0 1px;
+  text-align: center;
+  background-color: #fff;
+  color: #999;
+  cursor: pointer;
+  display: none;
+}

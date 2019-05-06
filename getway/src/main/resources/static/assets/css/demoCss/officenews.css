@@ -1,0 +1,39 @@
+/* 综合办公-新闻 */
+.officenew-content {
+
+}
+/* 顶部操作栏 */
+.officenew-content .nav-top {
+    display: flex;
+    width: 100%;
+    height: 40px;
+    background-color: #fff;
+    font-size: 15px;
+    line-height: 40px;
+    justify-content: space-between;
+    padding-right: 20px;
+}
+.officenew-content .nav-top .left div span{
+    margin-left: 20px;
+
+}
+.officenew-content .nav-top .left .layui-icon {
+    margin-right: 10px;
+}
+.officenew-content .nav-top .right {
+    position: relative;
+}
+.officenew-content .nav-top .right input {
+    padding-left: 20px;
+    height: 25px;
+    font-size: 13px;
+    border-radius: 6px;
+    width: 200px;
+    border: 1px solid #ddd;
+    margin-right: 10px;
+}
+.officenew-content .nav-top .right .layui-icon-search {
+    position: absolute;
+    top: 2px;
+    right: 17px;
+}
